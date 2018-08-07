@@ -1,0 +1,32 @@
+{
+  "name": "search-filter-component",
+  "version": "1.0.0",
+  "description": "powered by www.6sensetech.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zsiddiqui22/search-filter-component.git"
+  },
+  "keywords": [
+    "search",
+    "filter"
+  ],
+  "author": "Zohaib Siddiqui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zsiddiqui22/search-filter-component/issues"
+  },
+  "homepage": "https://github.com/zsiddiqui22/search-filter-component#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1"
+  }
+}
