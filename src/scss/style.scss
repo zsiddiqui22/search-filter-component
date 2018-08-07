@@ -1,0 +1,139 @@
+
+/*==========================
+    START - ACCORDIONS
+============================*/
+
+.zaccord-filter .form-control {
+    border-radius: 0px;
+    box-shadow: none;
+    display: block; 
+    width: 100%;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+.zaccord-wrap {
+    width: 100%;
+    text-align: left;
+    max-width: 100%;
+    box-sizing: border-box;
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+.zaccord-wrap p{
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+.zaccord-wrap ul.zaccord{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.zaccord-wrap ul.zaccord > li + li{
+    margin-top: 15px;
+}
+.zaccord-wrap li.active > .za-body{
+    display: block;
+}
+.zaccord-wrap .za-header {
+    display: block;
+    background-color: #eee;
+    color: #003b5a;
+    padding: 15px 42px 15px 25px;
+    position: relative;
+    cursor: pointer;
+}
+.zaccord-wrap .za-heading {
+    font-size: 12px;
+    margin: 0;
+    line-height: 1;
+    font-weight: bold;
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+.zaccord-wrap .za-heading .text {
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+.zah-arrow{
+    background: url('../images/add.png') scroll no-repeat;
+    height: 19px;
+    width: 38px;
+    display: block;
+    position: absolute;
+    top: 11px;
+    right: 0;
+}
+.zaccord-wrap .questions > li.active > .za-header .zah-arrow{
+    background: url('../images/remove.png') scroll no-repeat;
+}
+
+
+.zaccord-wrap > ul.zaccord > li > .za-header .zah-arrow{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 14px;
+}
+.zaccord-wrap > ul.zaccord > li > .za-header .zah-arrow::before,
+.zaccord-wrap > ul.zaccord > li > .za-header .zah-arrow::after{
+    position: absolute;
+    top: 6px;
+    width: 12px;
+    height: 1px;
+    background-color: #fff;
+}
+.zaccord-wrap > ul.zaccord > li > .za-header .zah-arrow::before{
+    content: "";
+    left: 0;
+    transform: rotate(50deg);
+}
+.zaccord-wrap > ul.zaccord > li > .za-header .zah-arrow::after{
+    content: "";
+    right: 0;
+    transform: rotate(-50deg);
+}
+.zaccord-wrap > ul.zaccord > li.active > .za-header .zah-arrow::before{
+    transform: rotate(-50deg);
+}
+.zaccord-wrap > ul.zaccord > li.active > .za-header .zah-arrow::after{
+    transform: rotate(50deg);
+}
+.zaccord-wrap .za-body{
+    padding: 15px;
+    display: none;
+}
+.zaccord-wrap .questions .za-body{
+    background: #eee;
+}
+.zaccord-wrap > ul.zaccord > li > .za-header {
+    background-color: #203a5a;
+    color: #fff;
+}
+.zaccord-wrap .questions > li.active > .za-header {
+    background-color: #b29f6e;
+    color: #fff;
+}
+/* input[type=search]::-webkit-search-cancel-button {
+    -webkit-appearance: searchfield-cancel-button;
+} */
+.clearable{
+    background: #fff url('../images/icoX.gif') no-repeat right -10px center;
+    border: 1px solid #999;
+    padding: 3px 18px 3px 4px;     /* Use the same right padding (18) in jQ! */
+    border-radius: 3px;
+    transition: background 0.4s;
+  }
+  .clearable.x  { background-position: right 5px center; } /* (jQ) Show icon */
+  .clearable.onX{ cursor: pointer; }              /* (jQ) hover cursor style */
+/*==========================
+    END - ACCORDIONS
+============================*/
+
+.displayNon {
+    display:none;
+}
+input::-khtml-clear,
+input::-o-clear,
+input::-moz-clear,
+input::-ms-clear,
+input::-webkit-clear {
+    display: none;
+}
